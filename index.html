@@ -9,7 +9,7 @@
 </head>
 <body>
   <header>
-    <h1>Tabitha</h1>
+    <h1>Tabitha <br> My Favourite Cat </h1>
     <p>I wonder why so many cats are named Tabitha. And they're always orange... </p>
 </header>
 <div>
@@ -25,10 +25,18 @@
     <li>They're (sometimes) very cuddly.</li>
     <li>They look adorable.</li>
     <li>... what else could you ask for?</li>
+    <li>Okay perhaps you're more of a <a href="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/golden-retriever-royalty-free-image-506756303-1560962726.jpg?crop=1.00xw:0.756xh;0,0.0756xh&resize=768:*" alt="dog">dog</a> person.</li>
   </ul>
 </div>
 </body>
 <footer>
-  <p>I love you Tabitha. I hope you love me back. </p>
+  <p>I love you Tabitha. I hope you love me back. </p> 
+  <p id="date"></p>
+  <script>
+    var date = new Date();
+	  var current_time = date.getDate()+" / "+date.getMonth()+" / "+ date.getFullYear();
+	  document.getElementById("date").innerHTML = current_time;
+  </script>
+  <p>👆🏽Today and any day.</p>
 </footer>
 </html>
